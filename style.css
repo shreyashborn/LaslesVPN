@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-style: 16px;
+  max-width: 1440px;
+}
+.container {
+  margin: 40px 50px;
+}
+
+nav {
+  display: inline-block;
+  /* display: inline-flex; */
+  margin-left: 157px;
+  margin-top: 18px;
+  vertical-align: super;
+}
+
+nav a {
+  color: #4f5665;
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 18px;
+}
+nav a:last-child {
+  margin-right: 0;
+}
+.signIn {
+  /* float: right; */
+  display: inline-block;
+  /* margin-top: 12px; */
+  position: absolute;
+  top: 12px;
+  margin-left: 150px;
+}
+.signIn a {
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.signIn a:first-child {
+  color: #0b132a;
+  font-size: 16px;
+}
+.signIn a:last-child {
+  color: #f53855;
+  padding: 14px 49px;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  margin-right: 0;
+}
+/* .signIn {
+  display: inline-block;
+  margin-left: 150px;
+  
+}*/
+
+/* --------------------------------------------- */
+
+.content {
+  display: flex;
+}
+
+article {
+  width: 500px;
+}
+.desc {
+  width: 500px;
+  margin-top: 120px;
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+}
+
+.article_2 {
+  width: 500px;
+  margin-top: 20px;
+  line-height: 30px;
+  color: #4f5665;
+}
+
+.btn-1 {
+  font-weight: bold;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 15px 90px;
+  background: #f53838;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+
+  box-shadow: -2px 0px 56px -16px rgba(245, 56, 56, 0.75);
+  -webkit-box-shadow: -2px 0px 56px -16px rgba(245, 56, 56, 0.75);
+  -moz-box-shadow: -2px 0px 56px -16px rgba(245, 56, 56, 0.75);
+}
+
+.prototype {
+  margin-top: 100px;
+}
+
+/* --------------------------------------------------------------------------- */
+footer {
+  width: 1140px;
+  display: flex;
+  margin-top: 100px;
+  /* justify-content: space-evenly; */
+
+  box-shadow: -2px 24px 114px -16px rgba(13, 16, 37, 0.06);
+  -webkit-box-shadow: -2px 24px 114px -16px rgba(13, 16, 37, 0.06);
+  -moz-box-shadow: -2px 24px 114px -16px rgba(13, 16, 37, 0.06);
+}
+
+.sub-footer {
+  display: flex;
+  gap: 36.5px;
+  margin: 45px 0;
+  padding: 17px 90px;
+  border-right: 2px solid #eeeff2;
+}
+
+footer div:last-child {
+  border: none;
+}
+
+.numbers {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #0b132a;
+}
+
+.subject {
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f5665;
+}
